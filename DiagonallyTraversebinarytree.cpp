@@ -15,7 +15,7 @@ using namespace std;
         while(curr){                           // first check weather the current node is zero or not  Modified BFS Traversal
             if(curr->left) q.push(curr->left);
             ans.push_back(curr->data);
-            curr=curr->right;  
+            curr=curr->right;                // Keep moving towards right as we digonally traverse from top right
         }
     }
     return ans;
