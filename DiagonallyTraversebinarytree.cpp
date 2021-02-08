@@ -12,10 +12,10 @@ using namespace std;
     while(!q.empty()){
         Node* curr=q.front();
         q.pop();
-        while(curr){
+        while(curr){                           // first check weather the current node is zero or not  Modified BFS Traversal
             if(curr->left) q.push(curr->left);
             ans.push_back(curr->data);
-            curr=curr->right;
+            curr=curr->right;  
         }
     }
     return ans;
