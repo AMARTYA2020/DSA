@@ -16,7 +16,7 @@ Node* rightview(Node* root)
                 ans.push_back(curr->data);
             }
 
-            if(root->left){
+            if(root->left){                 //FOR LEFT VIEW JUST INTERCHANGE root->left with root->right at first 
                 q.push(root->left);
             }
 
