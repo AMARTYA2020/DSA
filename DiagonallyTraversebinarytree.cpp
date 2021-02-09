@@ -4,7 +4,7 @@ using namespace std;
 // DIAGONALLY TRAVERSE BINARY TREE;
  vector<int> diagonallytraverse(Node* tree)
  {
- // CODE FOR TRAVERSING DIAGONALLY FROM TOP RIGHT FASHION:  SIMILAR TO POST ORDER (right to left) but we code if(curr->left) 
+ // CODE FOR TRAVERSING DIAGONALLY FROM TOP RIGHT FASHION:  SIMILAR TO POST ORDER (right to left) but we code if(curr->left).
      vector<int>ans;
      queue<Node*>q;
      q.push(root);
