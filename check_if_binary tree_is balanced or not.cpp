@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-
+// AVL TREES AND RED BLACK TREES ARE THE HEIGHT BALANCED TREE WHICH PREVENT THE FORMATION OF LEFT-SKEWED & RIGHT-SKEWED BINARY TREES:
 int height(Node* root){
     if(root==NULL){
         return 0;
