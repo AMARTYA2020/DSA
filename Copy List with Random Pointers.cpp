@@ -5,6 +5,7 @@ using namespace std;
 class solution{
 public:
     Node* copyRandomList(Node* head){
+        // CREATING NORMAL LINKED LIST THAT HAS A DATA FIELD AND ADDRESS FIELD:
         Node* curr=head;
         while(curr!=NULL){
             Node* next=curr->next;
