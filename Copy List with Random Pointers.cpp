@@ -13,6 +13,7 @@ public:
             curr->next->next=next;
             curr=next;
         }
+        // CREATING LINKED LIST THAT HAS A RANDOM ADDRESS FIELD:
         curr=head;
         while(curr!=NULL){
             if(curr->random!=NULL){
@@ -23,6 +24,7 @@ public:
             }
             curr=curr->next->next;
         }
+        // CREATING ANOTHER LINKED LIST:
         Node* newhead=new Node(0);
         Node* copycurr=newhead;
         curr=head;
