@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-
+// Bottom up Tabulation Solution:
 int knapsack(int w,int wt[],int val[],int n){
     int dp[n+1][w+1];
     for(int i=0;i<n+1;i++){
@@ -22,6 +22,8 @@ int knapsack(int w,int wt[],int val[],int n){
 
 
 
+                                              
+                                              
 
 
 
