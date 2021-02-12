@@ -23,6 +23,8 @@ void flatten(TreeNode* root)
     }
 }
 
+
+//This function returns a Linkedlist created from binary tree in Postorder fashion:
 void flatten(TreeNode* root)
 {
     if(root==NULL)
