@@ -29,7 +29,7 @@ int main(){
         int mid=lb+(ub-lb)/2;
         if(ispossible(arr,mid,c)){
             ans=mid;
-            lb=mid+1;           / AS WE HAVE TO FIND THE "LARGEST" minimum distance:
+            lb=mid+1;           // AS WE HAVE TO FIND THE "LARGEST" minimum distance:
         }else{
             ub=mid-1;
         }
