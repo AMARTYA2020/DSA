@@ -37,7 +37,7 @@ vector<int>spirallyTravers(vector<vector<int>>matrix,int r,int c)
     }
     left--;
    }
-   dir=(dir+1)%4;
+   dir=(dir+1)%4;        // SAME PROCESS REPEATS:
 }
 }
 
