@@ -8,9 +8,9 @@ class solution{
         long long int ans=0;
         while(low<=high){
             long long mid=low+(high-low)/2;
-            if(isBadVersion(mid)==true){
+            if(isBadVersion(mid)==true){      // THIS BOOLEAN API FUNCTION IS PREDEFINED:
                 answer=mid;
-                high=mid-1;
+                high=mid-1;     
             }else{
                 low=mid+1;
             }
