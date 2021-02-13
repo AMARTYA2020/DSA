@@ -10,7 +10,7 @@ class solution{
             long long mid=low+(high-low)/2;
             if(isBadVersion(mid)==true){      // THIS BOOLEAN API FUNCTION IS PREDEFINED:
                 answer=mid;
-                high=mid-1;     
+                high=mid-1;              // WE REQUIRE MINIMUM NUMBER OF CALLS 
             }else{
                 low=mid+1;
             }
