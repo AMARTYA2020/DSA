@@ -8,7 +8,7 @@ bool ispossible(vector<int>piles,int H,int speed)
         if(piles[i]<=speed){      // SINCE KOKO'S EATING SPEED IS MORE SO SHE KEEPS ON EATING
             hours=hours+1;
         }else{
-            hours=hours+1+(piles[i]/speed);
+            hours=hours+1+(piles[i]/speed); // elese her speed gets divided
         }
     }
     if(hours<=H) return true;
