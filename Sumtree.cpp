@@ -1,6 +1,19 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+Input:
+             10
+          /      \
+        -2        6
+       /   \     /  \
+     8     -4   7    5
+
+Output:
+            20
+          /    \
+        4        12
+       /  \     /  \
+     0     0   0    0
 
 void sumtree(Node* root)
 {
