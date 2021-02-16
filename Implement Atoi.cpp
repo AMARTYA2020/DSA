@@ -15,7 +15,7 @@ int atoi(string s)
         ++i;
     }
     while(s[i]){
-        if(s[i]-'0'>=0 && s[i]-'0'<=9)    
+        if(s[i]-'0'>=0 && s[i]-'0'<=9)    // if reducing with 0 we dont require to deal with ASCII directly understood only integers accepted:
             result=result*10+(s[i]-'0');
         else
             return -1;
