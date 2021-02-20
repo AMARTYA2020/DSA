@@ -10,7 +10,7 @@ void inorder(Node* root,vector<int>&ans)     // FIRST FINDING THE PREORDER TRAVE
     }
 }
 
-Node* createBST(vector<int>arr,int l,int h)
+Node* createBST(vector<int>arr,int low,int high)
 {
     if(low>high){
         return NULL;
