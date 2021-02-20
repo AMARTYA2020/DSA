@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-void inorder(Node* root,vector<int>&ans)
+void inorder(Node* root,vector<int>&ans)     // FIRST FINDING THE PREORDER TRAVERSAL AS IT IS ALWAYS IN SORTED ORDER CRUICIAL FOR BST:
 {
     if(root!=NULL){
         inorder(root->left,ans);
