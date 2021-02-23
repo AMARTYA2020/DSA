@@ -22,7 +22,7 @@ Node* sum_of_Nodes(Node* l1,Node* l2)
         temp->next=newnode2;
         temp=temp->next;
     }
-
+    return newnode->next;
 }
 
 
