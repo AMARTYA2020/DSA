@@ -10,9 +10,9 @@ void swapping(int *a,int *b)
 }
 
 
-int partitionf(int arr[],int low,int high)
+int partitionf(int arr[],int low,int high)          // CREATING PARTITION FUNCION:
 {
-    int pivot=arr[high];       WE ARE SELECTING LAST ELEMENT AS A PIVOT ELEMENT:
+    int pivot=arr[high];    //   WE ARE SELECTING LAST ELEMENT AS A PIVOT ELEMENT:
     int partitionindex=low;
     for(int i=low;i<high;i++){
         if(arr[i]<=pivot){
@@ -24,7 +24,7 @@ int partitionf(int arr[],int low,int high)
     return partitionindex;
 }
 
-void quicksort(int arr[],int low,int high)
+void quicksort(int arr[],int low,int high)               // CREATING RECURSIVE SORITNG FUNCION:
 {
     if(low<high){
         int pi=partitionf(arr,low,high);
