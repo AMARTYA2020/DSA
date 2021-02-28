@@ -4,8 +4,10 @@ using namespace std;
 vector<string>ans;
 void permutation(string s,int start,int last)
 {
-    if(start==last) ans.push_back(s);
-    else{
+    if(start==last){
+        ans.push_back(s);
+    
+    }else{
         for(int i=start;i<last;i++){
             swap(s[start],s[i]);
             permutation(s,start+1,last);
