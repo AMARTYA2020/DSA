@@ -1,6 +1,9 @@
 #include<bits/stdc++.h>
 using namespace std;
 // Description:
+/*
+Given two arrays: arr1[]=1,4,5,7 & arr2[]=10,20,30,40,       target=43    traverse 1st array and 2nd array in reverse keep
+*/
 void closestpair(int arr1[],int arr2[],int m,int n,int x)
 {
     int diff=INT_MAX;
