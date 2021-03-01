@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-
+// Description:
 void closestpair(int arr1[],int arr2[],int m,int n,int x)
 {
     int diff=INT_MAX;
