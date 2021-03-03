@@ -17,7 +17,7 @@ Node* construct(int in[],int post[],int n,int &index,unordered_map<int,int>&mp,i
 Node* buildtree(int in[],int post[],int n){
     unordered_map<int,int>mp;
     for(int i=0;i<n;i++)
-            mp[in[i]]=i;
+            mp[in[i]]=i; // storing all the inorder elements in map
 
     int index=n-1;
     return construct(in,post,n,index,mp,0,n-1);
