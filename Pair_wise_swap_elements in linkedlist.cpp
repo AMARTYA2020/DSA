@@ -2,7 +2,7 @@
 using namespace std;
 
 Node* pairwise(Node* root)
-{
+{       // all about interchanging data
     if(head==NULL || head->next==NULL)
         return head;
     Node* curr=head;
