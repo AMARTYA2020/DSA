@@ -7,7 +7,7 @@ struct Node{
 
 };
 
-                         Utility function to create a new node
+                      //    Utility function to create a new node
 Node* newNode(int data)
 {
     Node* temp=new Node;
