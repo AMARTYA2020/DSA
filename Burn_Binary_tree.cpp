@@ -32,7 +32,7 @@ int burntree(Node* root,int targetnode)
         return 1;
     }
     int a =burntree(root->left,targetnode);
-    if(a==1){          MEANS WE KNOW THERE IS TARGET IN LEFT NODES
+    if(a==1){        //  MEANS WE KNOW THERE IS TARGET IN LEFT NODES
         int x=q.size();
         for(int i=0;i<x;i++){
             Node* curr=q.front();
@@ -47,7 +47,7 @@ int burntree(Node* root,int targetnode)
         if(root->right)      WHAT IF RIGHT CHILD EXITS
             q.push(root->right);
         cout<<root->data<<endl;
-        return 1;            RETURN STATEMENTS TO PREVENT FURTHER FUNCTION CALLS
+        return 1;           // RETURN STATEMENTS TO PREVENT FURTHER FUNCTION CALLS
     }
     int b=burntree(root->right,targetnode);
     if(b==1){
