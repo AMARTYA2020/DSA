@@ -4,4 +4,4 @@
 
 2.Linkedlist
 
-Arrays
+3.Arrays
