@@ -2,5 +2,5 @@
 
 1.Binary Tree /BST
 
-2Linkedlist
+2.Linkedlist
 Arrays
