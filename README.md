@@ -2,7 +2,7 @@
 
 1.Binary Tree /BST
 
-2.Linkedlist/
+2.Linkedlist/C
 
 3.Arrays
 
