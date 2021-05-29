@@ -2,7 +2,7 @@
 
 1.Binary Tree /BST
 
-2.Linkedlist/CDLL/DL
+2.Linkedlist/CDLL/DLL
 
 3.Arrays
 
